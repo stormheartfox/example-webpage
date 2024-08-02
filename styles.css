@@ -4,13 +4,16 @@ p {
 h2 {
     background-color: aquamarine;
 }
-div:hover {
+#myClickableDiv:hover {
     cursor: grab;
     font-weight: bold;
 }
-div::after {
-    cursor: grabbing;
+div:hover {
+    padding: 50px;
 }
 button:hover {
     font-size: 5px;
+}
+a:hover {
+    padding: 10px;
 }
