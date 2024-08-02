@@ -1,3 +1,16 @@
 p {
-    font-size: 100px;
+    font-size: 20px;
+}
+h2 {
+    background-color: aquamarine;
+}
+div:hover {
+    cursor: grab;
+    font-weight: bold;
+}
+div::after {
+    cursor: grabbing;
+}
+button:hover {
+    font-size: 5px;
 }
