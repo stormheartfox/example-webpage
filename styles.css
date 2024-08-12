@@ -10,6 +10,13 @@ a {
   background-color: black;
   text-decoration: underline;
 }
-footer {
-    padding: 10px;
-}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    margin-top: auto;
+  }
