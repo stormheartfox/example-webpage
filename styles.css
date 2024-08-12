@@ -1,19 +1,12 @@
 p {
     font-size: 20px;
 }
-h2 {
+h1 {
     background-color: aquamarine;
 }
-#myClickableDiv:hover {
-    cursor: grab;
-    font-weight: bold;
-}
-div:hover {
-    padding: 50px;
-}
-button:hover {
-    font-size: 5px;
-}
-a:hover {
-    padding: 10px;
+
+a {
+  color: red;
+  background-color: black;
+  text-decoration: underline;
 }
